@@ -1,0 +1,83 @@
+.employees{
+    background-image: url(../img/bac2.jpg);
+    background-size:100%;
+    text-align: center;
+}
+.button_emp{
+    font-size: xx-large;
+    width: 200px;
+    height: 60px;
+    position: relative;
+    top: 125px;
+    left: 400px;
+    background-color:blueviolet;
+    margin-bottom: 25px;
+    border-radius: 20px;
+    padding: 10px 20px;
+}
+.button_emp2{
+    font-size: xx-large;
+    width: 200px;
+    height: 60px;
+    position: relative;
+    top: 125px;
+    left: 400px;
+    background-color:blueviolet;
+    margin-bottom: 25px;
+    border-radius: 20px;
+    padding: 10px 20px;
+}
+.button_emp3{
+    font-size: xx-large;
+    width: 200px;
+    height: 60px;
+    position: relative;
+    top: 125px;
+    left: 500px;
+    background-color:blueviolet;
+    margin-bottom: 25px;
+    border-radius: 20px;
+
+}
+#myForm{
+    width: 1000px;
+    height:500px ;
+    position: relative;
+    top: 20px;
+}
+.dev1{
+    display:flex;
+    gap: 10px;
+  }
+  .dev2{
+    display:flex;
+    gap: 10px;
+  }
+  .dev3{
+    display:flex;
+    gap: 10px;
+  }
+.user-info {
+    position: absolute;
+    top: 10px;
+    left: 10px;
+    background-color: rgba(255, 255, 255, 0.6);
+    padding: 10px 20px;
+    border-radius: 10px;
+    font-weight: bold;
+    font-size: 18px;
+    color: #000000;
+    box-shadow: 0 0 5px rgba(0,0,0,0.2);
+}
+#ticketDisplay {
+    font-size: 36px;
+    font-weight: bold;
+    width: 250px;
+    height: 70px;
+    margin-top: 15px;
+    border-radius: 15px;
+    border: 2px solid blueviolet;
+    background-color: #f9f9f9;
+    box-shadow: 0 0 8px rgba(0,0,0,0.1);
+    color: #333;
+}

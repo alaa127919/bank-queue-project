@@ -1,0 +1,20 @@
+.customer{
+    background-image:url(../img/bac1.jpg);
+    text-align: center;
+    
+
+}
+.button_cust{
+    font-size:xx-large;
+    position:relative;
+    left: auto;
+    top: auto;
+    border-radius: 15px;
+    border-style: ridge;
+    width: 250px;
+    height: 150px;
+    margin-bottom: 25px;
+    margin-top: 20px;
+    background-color: blueviolet;
+    font-weight: bold;
+}

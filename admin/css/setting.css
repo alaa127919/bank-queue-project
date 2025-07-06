@@ -1,0 +1,191 @@
+body {
+    background-image: url(../img/4.jpg);
+}
+.file-upload {
+    display: inline-block;
+    margin: 10px 0;
+    position: relative;
+    left: 150px;
+    top: 55px;
+}
+.file-upload label {
+    display: inline-block;
+    cursor: pointer;
+    border: 1px solid #000000;
+    border-radius: 15px;
+    background-color: rgba(0,0,0,0);
+    color: #000000;
+    padding: 10px 20px;
+    font-size: xx-large;
+}
+.file-upload input{
+    display: none;
+}
+#background_submit {
+    width: 100px;
+    position: relative;
+    left: 220px;
+    font-size: xx-large;
+    background-color: rgba(0,0,0,0);
+    border: 1px solid #000000;
+    border-radius: 15px;
+}
+#background_submit:hover {
+    background-color: cyan;
+}
+#new_user_button{
+    width: 65px;
+    height: 65px;
+    position: fixed;
+    background-color: rgba(0,0,0,0);
+    background-image: url(../img/icon2.ico);
+    background-size: cover;
+    border: none;
+    left: 35px;
+    top: 70px;
+}
+
+#back_button:hover {
+    background-color: grey;
+    border-radius: 10px;
+}
+#background {
+    display: none;
+    position: relative;
+    left: 25%;
+}
+#alertBox {
+    display: none;
+    position: fixed;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    background-color:blueviolet;
+    padding: 20px;
+    border: 2px solid #000;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.5);
+    z-index: 1000;
+    width: 200px;
+    height: 100px;
+    text-align: center;
+    font-size: large;
+}
+#alertBox h2 {
+    margin: 0 0 10px 0;
+}
+#alertBox button {
+    display: block;
+    margin: 10px auto 0 auto;
+    padding: 10px 20px;
+    background-color: #1E90FF;
+    color:black;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: large;
+    font-weight: bold;
+    border:1px solid #000000;
+}
+#alertBox button:hover {
+    background-color: #4682B4;
+}
+#new_user_form{
+    display: none;
+    position:relative;
+    width: 400px;
+    height: 200px;
+    top: 100px;
+    left: 35%;
+}
+
+#div_new_user{
+    display: none;
+    position:fixed;
+    top: 200px;
+    left: 40%;
+    font-size: larger;
+}
+#div_update_user{
+    display: none;
+    position:fixed;
+    top: 200px;
+    left: 40%;
+    font-size: larger;
+}
+.user_button{
+width: 175px;
+height: 50px;
+border-radius: 10px;
+border: 1px solid #000000;
+font-size:18px;
+font-weight: bolder;
+background-color: rgba(0,0,0,0);
+}
+.user_button:hover{
+    background-color:cyan;
+    border-radius: 10px;  
+}
+#new_user_button:hover{
+    background-color:gray;
+    border-radius: 10px;  
+}
+.new_user_input{
+    border-radius: 10px;
+    text-align: left;
+    font-size: medium;
+    height: 35px;
+    font-size: large;
+    font-weight: bold;
+    background-color: rgba(0,0,0,0);
+    border: 1px solid #000000;
+}
+.new_user_input:hover{
+    cursor: pointer;
+}
+#new_user_submit{
+    border-radius: 10px;
+    text-align: left;
+    font-size:xx-large;
+    height: 35px;
+    width: 100px;
+    font-weight: bold;
+    background-color: rgba(0,0,0,0);
+    border: 1px solid #000000;
+    text-align: center;
+    position: relative;
+    left: 60px;
+}
+#new_user_submit:hover{
+    background-color:cyan;
+   }
+.update_user_input{
+    border-radius: 10px;
+    text-align: left;
+    font-size: medium;
+    height: 35px;
+    width: 300 px;
+    font-size: large;
+    font-weight: bold;
+    background-color: rgba(0,0,0,0);
+    border: 1px solid #000000;
+}
+.update_user_input:hover{
+    cursor: pointer;
+}
+#update_button{
+    border-radius: 10px;
+    text-align: left;
+    font-size:xx-large;
+    height: 35px;
+    width: 100px;
+    font-weight: bold;
+    background-color: rgba(0,0,0,0);
+    border: 1px solid #000000;
+    text-align: center;
+    position: relative;
+    left: 60px;
+}
+#update_button:hover{
+ background-color:cyan;
+}
+
